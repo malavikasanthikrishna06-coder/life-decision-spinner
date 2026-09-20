@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Life Decision Spinner 🎰</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎰 Life Decision Spinner</h1>
+
+        <p class="subtitle">
+            Can't decide? Let fate choose.
+        </p>
+
+        <div class="input-section">
+            <input
+                type="text"
+                id="choiceInput"
+                placeholder="Enter a choice..."
+            >
+
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div id="choicesList"></div>
+
+        <div class="wheel-container">
+            <div class="pointer">▼</div>
+
+            <div id="wheel">
+    <div class="wheel-text">
+        Add choices
+    </div>
+
+    <div id="wheelLabels"></div>
+</div>
+
+        <button id="spinBtn">
+            🎯 SPIN
+        </button>
+
+        <button id="resetBtn">
+            Reset
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
